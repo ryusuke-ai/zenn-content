@@ -12,7 +12,7 @@ AI エージェントを本番運用していると、「CLI を子プロセス�
 
 この記事では、個人で開発・運用している **Argus** というマルチエージェントシステムにおいて、Claude Code CLI のプロセス起動から **Claude Agent SDK** (`@anthropic-ai/claude-agent-sdk`) へ移行した設計と実装を紹介します。
 
-Argus は Slack をインターフェースとして、タスク実行・メール管理・カレンダー操作・SNS コンテンツ生成などを自律的に行うシステムです。pnpm monorepo で 12 パッケージ、1,165 以上のテストを持つ TypeScript プロジェクトで、Railway VPS 上で 24 時間稼働しています。
+Argus は Slack をインターフェースとして、タスク実行・メール管理・カレンダー操作・SNS コンテンツ生成などを自律的に行うシステムです。pnpm monorepo で 12 パッケージ、1,192 のテストを持つ TypeScript プロジェクトで、Railway VPS 上で 24 時間稼働しています。
 
 ## 移行前の課題: CLI spawn の何がつらかったか
 
