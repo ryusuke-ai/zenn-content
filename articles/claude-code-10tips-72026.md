@@ -8,7 +8,7 @@ published: true
 
 ## はじめに
 
-Claude Code を日常的に使っていると「もっと効率よくできないか」と感じる場面が増えてきます。本記事では、12 パッケージの monorepo を Claude Code で開発・運用する中で効果を実感した実践 Tips を 7 つ紹介します。
+Claude Code を日常的に使っていると「もっと効率よくできないか」と感じる場面が増えてきます。本記事では、11 パッケージの monorepo を Claude Code で開発・運用する中で効果を実感した実践 Tips を 7 つ紹介します。
 
 ## 1. CLAUDE.md を階層化する
 
